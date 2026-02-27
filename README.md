@@ -7,5 +7,10 @@ No, there's no direct `--deployment` flag. But you can filter pods by deployment
 
 ## Installation
 `$ fisher plugin install kylemumma/claude-in-fish`
+and if all goes well you should be able to run
+```
+$ ? 'hello claude'
+Hello! How can I help you today?
+```
 
 note: you must be using [fish shell](https://github.com/fish-shell/fish-shell) and have [fisher](https://github.com/jorgebucaran/fisher) installed
