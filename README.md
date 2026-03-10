@@ -1,14 +1,5 @@
-```
-$ ? 'hello claude'
-Hello! How can I help you today?
-```
 
-Sometimes you just want to talk to claude in your terminal. You have to copy paste the terminal output and then put it in claude by hand. 
-This fish plugin makes it easy to pipe into claude in your terminal.
-```
-$ kubectl get pods -h | ? 'does this specify anyway to filter pods by deployment?'
-No, there's no direct `--deployment` flag. But you can filter pods by deployment indirectly using label selectors, since deployments manage pods via labels.
-```
+![output](https://github.com/user-attachments/assets/a1053f85-313f-4359-a0a1-9aefbc9fb367)
 
 ## Installation
 pre-reqs: you must be using [fish shell](https://github.com/fish-shell/fish-shell) and have [fisher](https://github.com/jorgebucaran/fisher) installed
