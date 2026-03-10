@@ -3,9 +3,6 @@
 
 ## Installation
 pre-reqs: you must be using [fish shell](https://github.com/fish-shell/fish-shell) and have [fisher](https://github.com/jorgebucaran/fisher) installed
-`$ fisher plugin install kylemumma/claude-in-fish`
-and if all goes well you should be able to run
 ```
-$ ? 'hello claude'
-Hello! How can I help you today?
+$ fisher plugin install kylemumma/claude-in-fish
 ```
